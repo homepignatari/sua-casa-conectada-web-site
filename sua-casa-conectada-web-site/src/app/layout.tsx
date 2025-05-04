@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${geistSans.variable} ${manrope.variable} ${exo2.variable} antialiased  bg-white overflow-x-hidden`}
+        className={`${geistSans.variable} ${manrope.variable} ${exo2.variable} antialiased max-sm:relative max-sm:max-x-full bg-white overflow-x-hidden max-sm:overflow-x-hidden`}
       >
         {children}
       </body>

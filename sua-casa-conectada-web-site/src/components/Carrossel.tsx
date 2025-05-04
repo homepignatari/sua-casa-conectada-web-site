@@ -9,7 +9,7 @@ export const Carrossel = () => {
 
             <div className='relative z-10 flex flex-col items-center justify-center h-full text-blue-400 '>
                 <h1 className='text-5xl font-sans text-center'>Preparamos sua casa para o futuro,</h1>
-                <h1 className='text-5xl p-8 font-sans'>e o futuro é agora!</h1>
+                <h1 className='text-5xl p-8 font-sans text-center'>e o futuro é agora!</h1>
                 <div className=' flex gap-4'>
                     <button className="btn btn-info">Conheça nossas soluções</button>
                     <button className="btn btn-outline btn-info">Conheça nossos serviços</button>

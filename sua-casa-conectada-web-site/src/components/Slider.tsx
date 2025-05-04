@@ -46,8 +46,8 @@ const xTranslation = useMotionValue(0)
 }, [xTranslation, width])
 
   return (
-    <div className='h-[250px] py-8  bg-white'>
-      <motion.div className='absolute left-0 flex gap-8' ref={ref} style={{ x: xTranslation }}>
+    <div className='relative h-[250px] w-full py-8 overflow-hidden bg-white max-sm:overflow-hidden'>
+      <motion.div className='absolute left-0 flex gap-8 w-max' ref={ref} style={{ x: xTranslation, overflow: 'hidden' }}>
         {[...imagesLogo, ...imagesLogo].map((item, idx) => (
           <Card backgroungImage={item} key={idx} />
         ))}
