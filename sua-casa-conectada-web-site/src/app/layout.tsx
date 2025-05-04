@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Exo_2, Manrope} from "next/font/google";
+import { Geist, Exo_2, Manrope} from "next/font/google";
 import "./globals.css";
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
