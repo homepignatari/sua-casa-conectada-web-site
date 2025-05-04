@@ -2,7 +2,7 @@ import React from 'react'
 
 type SubtitleProps = {
     title: string,
-    descriple: string
+    descriple?: string
     backgroungImage: string
 }
 
