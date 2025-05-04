@@ -31,6 +31,7 @@ const xTranslation = useMotionValue(0)
     // eslint-disable-next-line prefer-const
   let finalPosition = -width / 2 - 8
 
+    // eslint-disable-next-line prefer-const
   controls = animate(xTranslation, [0, finalPosition], {
     ease: 'linear',
     duration: 25,
