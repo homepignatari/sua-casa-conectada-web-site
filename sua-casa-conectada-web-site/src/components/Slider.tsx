@@ -40,7 +40,8 @@ const xTranslation = useMotionValue(0)
     repeatDelay: 0
   
 
-})
+  })
+    // eslint-disable-next-line prefer-const
   return controls.stop
 }, [xTranslation, width])
 
