@@ -4,7 +4,6 @@ import { Carrossel } from "@/components/Carrossel";
 import { Subtitle } from "@/components/Subtitle";
 import { TopicTable } from "@/components/TopicTable";
 import { ContactBar } from "@/components/ContactBar";
-import { FloatButton } from "antd";
 import { Slider } from "@/components/Slider";
 import FooterBar from "@/components/FooterBar";
 
