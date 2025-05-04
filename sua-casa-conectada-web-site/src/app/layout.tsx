@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Exo_2, Manrope} from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 const geistSans = Geist({
