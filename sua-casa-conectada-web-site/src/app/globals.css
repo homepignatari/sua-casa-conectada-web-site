@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-exo-2);
+  --font-mono: var(--font-manrope-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #0D325E;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-exo-2), var(--font-manrope-mono), Arial, Helvetica, sans-serif;
+  
+}
+
