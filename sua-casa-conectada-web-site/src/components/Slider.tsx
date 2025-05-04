@@ -20,13 +20,15 @@ export const Slider = () => {
     "/image 19.svg",
     "/image 20.svg",
   ]
-
+// eslint-disable-next-line prefer-const
 let [ref, { width }] = useMeasure()
   
 const xTranslation = useMotionValue(0)
 
-useEffect(() => {
-  let controls
+  useEffect(() => {
+  // eslint-disable-next-line prefer-const
+    let controls
+    // eslint-disable-next-line prefer-const
   let finalPosition = -width / 2 - 8
 
   controls = animate(xTranslation, [0, finalPosition], {
