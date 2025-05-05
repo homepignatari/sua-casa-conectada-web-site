@@ -1,6 +1,5 @@
 import React from 'react'
 import { Header } from '@/components/Header'
-import { ContactBar } from '@/components/ContactBar'
 import FooterBar from '@/components/FooterBar'
 
 export default function page() {
