@@ -7,6 +7,7 @@ import { ContactBar } from "@/components/ContactBar";
 import { Slider } from "@/components/Slider";
 import FooterBar from "@/components/FooterBar";
 
+
 export default function Home() {
   return (
     <div className="overflow-hidden max-sm:overflow-x-hidden bg-white ">

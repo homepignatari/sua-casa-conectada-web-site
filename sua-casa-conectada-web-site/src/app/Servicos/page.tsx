@@ -5,6 +5,7 @@ import { TopicTable } from '@/components/TopicTable'
 import { BagdeCategory } from '@/components/BagdeCategory'
 import { ContactBar } from '@/components/ContactBar'
 import FooterBar from '@/components/FooterBar'
+import { BorderTopic } from '@/components/BorderTopic'
 
 export default function page() {
     return (
@@ -21,30 +22,69 @@ export default function page() {
                 <TopicTable title='Treinamento' descriple='Apresentação sobre os dispositivos e funcionalidades instaladas, orientação sobre criação de cenas e automações, uso de assistentes de voz e alterações de configurações básicas;' />
             </div>
             <Subtitle title='Pacotes de Automação' backgroungImage='/pacotes-de-automacao.svg' />
-            <div className='flex  flex-col gap-2 text-center '>
-                <h2 className='text-xl font-bold'>Pacotes Automação Basic</h2>
-                <p className='w-[1050px] line-clamp-3 font-mono text-center'>Os pacotes de automação Basic são compostos por pontos de iluminação, uma hora de Treinamento e um mês de Suporte Remoto Plus</p>
-                <div>
+            <h2 className='text-xl font-bold p-4'>Pacotes Automação Basic</h2>
+            <p className='w-full max-sm:w-full max-sm:text-wrap font-mono text-center px-8'>Os pacotes de automação Basic são compostos por pontos de iluminação, uma hora de Treinamento e um mês de Suporte Remoto Plus</p>
+            <div className='w-[1000px] flex flex-wrap max-sm:w-full max-sm:grid max-sm:grid-rows-1 gap-2 gap-y-8 gap-x-4 place-items-center justify-center items-center py-10 px-8'>
+                <BorderTopic title='Light I' />
+                <BorderTopic title='Light II' />
+                <BorderTopic title='Light III' />
+                <BorderTopic title='Light IV' />
+                <BorderTopic title='Light V' />
+            </div>
 
+            <h2 className='text-xl font-bold p-4'>Pacotes Automação Essencial</h2>
+            <p className='font-mono text-center px-8'>Os pacotes de automação Essencial são compostos por pontos de iluminação, tomadas, botões de cenas, sensores de portas e janelas, sensores de presença, sensores de temperatura e humidade, sensores de líquidos, campainha, *portão de garagem, configuração de aplicativo e assistente de voz, uma hora de Treinamento e um mês de Suporte Remoto Full</p>
+            <div className='w-[1050px] flex flex-wrap max-sm:w-full max-sm:grid max-sm:grid-rows-1 gap-2 gap-y-8 gap-x-4 place-items-center justify-center items-center py-10 px-8'>
+                <BorderTopic title='Studio' describle='Studios e apartamentos pequenos com 1 quarto – até 40m' />
+                <BorderTopic title='Small' describle='Apartamentos compactos com 2 quartos – até 60m' />
+                <BorderTopic title='Medium' describle='Apartamentos com 3 quartos – até 90m' />
+                <BorderTopic title='Small House' describle='Casas compactas com 2 quartos – até 65m' />
+                <BorderTopic title='Medium House' describle='Casas com 3 quartos – até 90m' />
+                <BorderTopic title='Comfort House' describle='Casas maiores  – até 120m' />
+                <BorderTopic title='Large Custom' describle='Apartamentos acima de 90m e casas acimas de 120m' />
+
+            </div>
+            <h2 className='text-xl font-bold p-4'>Pacotes Automação Plus</h2>
+            <p className='font-mono text-center px-8'>Os pacotes de automação Plus são compostos por sensores de temperatura e humidade, controladores infravermelho, cortinas e persianas, sensores de portas e janelas, e sensores de presença</p>
+            <div className='w-[1050px] flex flex-wrap max-sm:w-full max-sm:grid max-sm:grid-rows-1 gap-2 gap-y-8 gap-x-4 place-items-center justify-center items-center py-10 px-8'>
+                <BorderTopic title='Confort I-III' />
+                <BorderTopic title='Door/Window I-III' />
+                <BorderTopic title='Presence I-III' />
+            </div>
+            <h2 className='text-xl font-bold p-4'>Pacotes Home Assistant</h2>
+            <p className='font-mono text-center px-8'>Os pacotes Home Assistant contemplam instalação e configuração de acessos, backup, segurança, monitoramento de hardware, conectividade, integrações, multimedia, dashboards, alarmes, DVR, assistentes de voz e IA, além de 2 horas de Treinamento e um mês de Suporte Remoto HA Full</p>
+            <div className='w-[1050px] flex flex-wrap max-sm:w-full max-sm:grid max-sm:grid-rows-1 gap-2 gap-y-8 gap-x-4 place-items-center justify-center items-center py-10 px-8'>
+                <BorderTopic title='HA Initial' />
+                <BorderTopic title='HA Basic' />
+                <BorderTopic title='HA Intermediate' />
+                <BorderTopic title='HA Media' />
+                <BorderTopic title='HA Assistant' />
+                <BorderTopic title='HA Advanced Custom' />
+            </div>
+            <h2 className='text-xl font-bold p-4'>Pacotes Rotinas e Cenas</h2>
+            <div className='w-[1050px] flex flex-wrap max-sm:w-full max-sm:grid max-sm:grid-rows-1 gap-2 gap-y-8 gap-x-4 place-items-center justify-center items-center py-10 px-8'>
+                <div className='w-[280px] border-2 border-sky-500 rounded-lg p-2 '>
+                    <p className='font-medium text-2xl text-center text-sky-500'>Simple</p>
+                    <ul className="list-disc list-inside text-left">
+                        <li className='font-mono text-xs'>Lógica Simples</li>
+                        <li className='font-mono text-xs'>Até 3 elementos ou 30 minutos de programação</li>
+                    </ul>
+                </div>
+                <div className='w-[280px] border-2 border-sky-500 rounded-lg p-2'>
+                    <p className='font-medium text-2xl text-center text-sky-500 py-2'>Optimized </p>
+                    <ul className="list-disc list-inside text-left">
+                        <li className='font-mono text-xs'>Lógica Avançada</li>
+                        <li className='font-mono text-xs'>Até 4 elementos ou 1 hora de programação</li>
+                    </ul>
+                </div>
+                <div className='w-[280px] border-2 border-sky-500 rounded-lg p-2 '>
+                    <p className='font-medium text-2xl text-center text-sky-500'>Complex</p>
+                    <ul className="list-disc list-inside text-left">
+                        <li className='font-mono text-xs'>Lógica Complexa</li>
+                        <li className='font-mono text-xs'>Diversos elementos ou a partir de 1 hora de programação</li>
+                    </ul>
                 </div>
             </div>
-
-            <h2 className='text-xl font-bold'>Pacotes Automação Essencial</h2>
-            <p className='w-[1050px] line-clamp-3 font-mono text-center'>Os pacotes de automação Essencial são compostos por pontos de iluminação, tomadas, botões de cenas, sensores de portas e janelas, sensores de presença, sensores de temperatura e humidade, sensores de líquidos, campainha, *portão de garagem, configuração de aplicativo e assistente de voz, uma hora de Treinamento e um mês de Suporte Remoto Full</p>
-            <div>
-
-            </div>
-            <h2 className='text-xl font-bold'>Pacotes Automação Plus</h2>
-            <p className='w-[1050px] line-clamp-3 font-mono text-center'>Os pacotes de automação Plus são compostos por sensores de temperatura e humidade, controladores infravermelho, cortinas e persianas, sensores de portas e janelas, e sensores de presença</p>
-            <div>
-
-            </div>
-            <h2 className='text-xl font-bold'>Pacotes Home Assistant</h2>
-            <p className='w-[1050px] line-clamp-3 font-mono text-center'>Os pacotes Home Assistant contemplam instalação e configuração de acessos, backup, segurança, monitoramento de hardware, conectividade, integrações, multimedia, dashboards, alarmes, DVR, assistentes de voz e IA, além de 2 horas de Treinamento e um mês de Suporte Remoto HA Full</p>
-            <div>
-
-            </div>
-            <h2 className='text-xl font-bold'>Pacotes Rotinas e Cenas</h2>
             <Subtitle title='Pacotes de Suporte' backgroungImage='/pacotes-de-suporte.svg' />
             <div className='w-[900px] flex flex-wrap max-sm:w-full max-sm:grid max-sm:grid-cols-2 gap-2 gap-y-8 gap-x-4 place-items-center justify-center items-center py-10 px-8'>
                 <BagdeCategory title='Suporte Remoto' />
@@ -57,6 +97,6 @@ export default function page() {
             </div>
             < ContactBar />
             <FooterBar />
-        </div>
+        </div >
     )
 }
