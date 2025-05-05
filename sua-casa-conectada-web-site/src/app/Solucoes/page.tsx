@@ -28,7 +28,7 @@ export default function page() {
     return (
         <div className='bg-white place-items-center'>
             <Header />
-            <Subtitle title='Nossas soluções' backgroungImage='/3-banner-solucoes.svg' />
+            <Subtitle title='Nossas Soluções' backgroungImage='/3-banner-solucoes.svg' />
             <div className='w-[900px] grid grid-cols-2 max-sm:w-full max-sm:grid-cols-1 gap-y-8 gap-x-4 place-items-center text-center py-10'>
                 <TopicTable title='Consultoria e Projetos' descriple='Planejamento e desenvolvimento de soluções personalizadas para atender às suas necessidades.' />
                 <TopicTable title='Automação Residencial e IoT ' descriple='Integração de dispositivos inteligentes, assistente de voz e criação de automações avançadas para tornar sua casa mais conectada e funcional.' />
