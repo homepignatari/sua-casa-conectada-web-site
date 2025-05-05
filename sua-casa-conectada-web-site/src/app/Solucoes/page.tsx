@@ -2,6 +2,7 @@ import React from 'react'
 import { Header } from '@/components/Header'
 import { Subtitle } from '@/components/Subtitle'
 import { TopicTable } from '@/components/TopicTable'
+import { BagdeCategory } from '@/components/BagdeCategory'
 import Image from 'next/image'
 import Alexa from '../../../public/Alexa.svg'
 import GoogleAssistant from '../../../public/Google-Assistant.svg'
@@ -28,7 +29,7 @@ export default function page() {
         <div className='bg-white place-items-center'>
             <Header />
             <Subtitle title='Nossas soluções' backgroungImage='/3-banner-solucoes.svg' />
-            <div className='w-[900px] grid grid-cols-2 max-sm:grid-cols-1 gap-y-8 gap-x-4 place-items-center text-center py-10'>
+            <div className='w-[900px] grid grid-cols-2 max-sm:w-full max-sm:grid-cols-1 gap-y-8 gap-x-4 place-items-center text-center py-10'>
                 <TopicTable title='Consultoria e Projetos' descriple='Planejamento e desenvolvimento de soluções personalizadas para atender às suas necessidades.' />
                 <TopicTable title='Automação Residencial e IoT ' descriple='Integração de dispositivos inteligentes, assistente de voz e criação de automações avançadas para tornar sua casa mais conectada e funcional.' />
                 <TopicTable title='Home Assistant' descriple='Implementação e configuração de plataforma open-source para automação completa da sua residência.' />
@@ -62,12 +63,49 @@ export default function page() {
 
             </div>
             <Subtitle title='Dispositivos' backgroungImage='/banner-dispositivos.svg' />
-            <div>
-
+            <div className='w-[900px] flex flex-wrap max-sm:w-full max-sm:grid max-sm:grid-cols-2 gap-2 gap-y-8 gap-x-4 place-items-center justify-center items-center py-10 px-2'>
+                <BagdeCategory title='Lâmpadas e Fitas LED' />
+                <BagdeCategory title='Interruptores e Tomadas' />
+                <BagdeCategory title='Displays' />
+                <BagdeCategory title='Botões de Cenas' />
+                <BagdeCategory title='Cortinas e Persianas' />
+                <BagdeCategory title='Portas e Janelas' />
+                <BagdeCategory title='Fechaduras' />
+                <BagdeCategory title='Campainhas e Vídeo Porteiros' />
+                <BagdeCategory title='Portões' />
+                <BagdeCategory title='Caixas de Correspondência' />
+                <BagdeCategory title='Centrais de Alarme e Cercas Elétrica' />
+                <BagdeCategory title='Sirenes' />
+                <BagdeCategory title='Motores, Bombas e Atuadores' />
+                <BagdeCategory title='Irrigação e Jardinagem' />
+                <BagdeCategory title='Eletrodomésticos e Móveis' />
+                <BagdeCategory title='Controladores Infravermelho e Rádio Frequência' />
+                <BagdeCategory title='Válvulas e Torneiras' />
+                <BagdeCategory title='Chuveiros' />
+                <BagdeCategory title='Exaustores' />
+                <BagdeCategory title='Toalheiros' />
+                <BagdeCategory title='Tags NFC' />
+                <BagdeCategory title='Relês' />
+                <BagdeCategory title='Disjuntores' />
+                <BagdeCategory title='Medidores Energéticos' />
+                <BagdeCategory title='Câmeras Wifi e PoE' />
+                <BagdeCategory title='Hubs' />
+                <BagdeCategory title='Roteadores' />
+                <BagdeCategory title='Switches' />
+                <BagdeCategory title='Access Points' />
+                
             </div>
             <Subtitle title='Sensores' backgroungImage='/banner-sensores.svg' />
-            <div>
-
+            <div className='w-[900px] flex flex-wrap max-sm:w-full max-sm:grid max-sm:grid-cols-2 gap-2 gap-y-8 gap-x-4 place-items-center justify-center items-center py-10 px-8'>
+                <BagdeCategory title='Luminosidade' />
+                <BagdeCategory title='Movimento' />
+                <BagdeCategory title='Presença' />
+                <BagdeCategory title='Vibração' />
+                <BagdeCategory title='Temperatura e Humidade' />
+                <BagdeCategory title='Chuva' />
+                <BagdeCategory title='Água' />
+                <BagdeCategory title='Gás' />
+                <BagdeCategory title='Fumaça' />
             </div>
             < ContactBar />
             <FooterBar />
