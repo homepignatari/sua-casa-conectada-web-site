@@ -11,13 +11,11 @@ export const Header = () => {
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" height="25" width="25" viewBox="0 0 448 512"><path fill="#1781CD" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" /></svg>                    </div>
-                    <ul
-                        tabIndex={0}
-                        className="menu menu-sm text-base dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow bg-blue-950 text-white">
+                    <ul tabIndex={0} className="menu menu-sm text-base dropdown-content rounded-box z-1 mt-3 w-52 p-2 shadow bg-blue-950 text-white">
                         <li><Link href={`/`}>Home</Link></li>
                         <li><Link href={`/Solucoes`}>Soluções</Link></li>
                         <li><Link href={`/Servicos`}>Serviços</Link></li>
-                        <li><Link href={`/Contato`}>Contato</Link></li>
+                        <li><Link href={`/Contact`}>Contato</Link></li>
                     </ul>
 
                 </div>
@@ -29,7 +27,7 @@ export const Header = () => {
                     <li><Link href={`/`}>Home</Link></li>
                     <li><Link href={`/Solucoes`}>Soluções</Link></li>
                     <li><Link href={`/Servicos`}>Serviços</Link></li>
-                    <li><Link href={`/Contato`}>Contato</Link></li>
+                    <li><Link href={`/Contact`}>Contato</Link></li>
                 </ul>
             </div>
             <div className="navbar-end gap-2">
