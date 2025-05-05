@@ -15,7 +15,7 @@ export const Header = () => {
                         <li><Link href={`/`}>Home</Link></li>
                         <li><Link href={`/Solucoes`}>Soluções</Link></li>
                         <li><Link href={`/Servicos`}>Serviços</Link></li>
-                        <li><Link href={`/Contato`}>Contato</Link></li>
+                        <li><Link href={`/Contact`}>Contato</Link></li>
                     </ul>
 
                 </div>
@@ -27,7 +27,7 @@ export const Header = () => {
                     <li><Link href={`/`}>Home</Link></li>
                     <li><Link href={`/Solucoes`}>Soluções</Link></li>
                     <li><Link href={`/Servicos`}>Serviços</Link></li>
-                    <li><Link href={`/Contato`}>Contato</Link></li>
+                    <li><Link href={`/Contact`}>Contato</Link></li>
                 </ul>
             </div>
             <div className="navbar-end gap-2">
