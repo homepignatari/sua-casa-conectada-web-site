@@ -9,16 +9,16 @@ import { useEffect } from 'react'
 export const Slider = () => {
 
   const imagesLogo = [
+    "/image 6.svg",
     "/image 2.svg",
     "/image 4.svg",
-    "/image 5.svg",
-    "/image 6.svg",
     "/image 7.svg",
     "/image 8.svg",
-    "/image 14.svg",
     "/image 18.svg",
     "/image 19.svg",
     "/image 20.svg",
+    "/image 14.svg",
+    "/image 5.svg",
   ]
 // eslint-disable-next-line prefer-const
 let [ref, { width }] = useMeasure()

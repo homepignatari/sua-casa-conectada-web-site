@@ -18,7 +18,7 @@ import Ewelink from '../../../public/ewelink.svg'
 import Aqara from '../../../public/aqara.svg'
 import SmartThings from '../../../public/smart-things.svg'
 import HomeAssist from '../../../public/Home-assistant.svg'
-import wifi from '../../../public/wifi.svg'
+import wifi from '../../../public/wifi-a.svg'
 import zigbee from '../../../public/zigbee.svg'
 import thread from '../../../public/Thread.svg'
 import matter from '../../../public/matter.svg'
@@ -29,11 +29,11 @@ export default function page() {
         <div className='bg-white place-items-center'>
             <Header />
             <Subtitle title='Nossas Soluções' backgroungImage='/3-banner-solucoes.svg' />
-            <div className='w-[900px] grid grid-cols-2 max-sm:w-full max-sm:grid-cols-1 gap-y-8 gap-x-4 place-items-center text-center py-10'>
+            <div className='w-[900px] grid grid-cols-2 max-sm:w-full max-sm:grid-cols-1 gap-y-8 gap-x-30 place-items-center text-center py-10'>
                 <TopicTable title='Consultoria e Projetos' descriple='Planejamento e desenvolvimento de soluções personalizadas para atender às suas necessidades.' />
                 <TopicTable title='Automação Residencial e IoT ' descriple='Integração de dispositivos inteligentes, assistente de voz e criação de automações avançadas para tornar sua casa mais conectada e funcional.' />
                 <TopicTable title='Home Assistant' descriple='Implementação e configuração de plataforma open-source para automação completa da sua residência.' />
-                <TopicTable title='Infraestrutura e Redes' descriple='Planejamento e desenvolvimento de soluções personalizadas para atender às suas necessidades.' />
+                <TopicTable title='Infraestrutura e Redes' descriple='Instalação e configuração de redes de alta performance para suportar todos os dispositivos inteligentes da sua casa.' />
             </div>
             <Subtitle title='Assistentes de Voz' backgroungImage='/2-assistentes-de-voz.svg' />
             <div className='flex max-sm:grid max-sm:grid-cols-2 gap-y-8 gap-x-4 place-items-center py-10'>
@@ -96,7 +96,7 @@ export default function page() {
                 
             </div>
             <Subtitle title='Sensores' backgroungImage='/banner-sensores.svg' />
-            <div className='w-[900px] flex flex-wrap max-sm:w-full max-sm:grid max-sm:grid-cols-2 gap-2 gap-y-8 gap-x-4 place-items-center justify-center items-center py-10 px-8'>
+            <div className='w-[800px] flex flex-wrap max-sm:w-full max-sm:grid max-sm:grid-cols-2 gap-2 gap-y-8 gap-x-4 place-items-center justify-center items-center py-10 px-8'>
                 <BagdeCategory title='Luminosidade' />
                 <BagdeCategory title='Movimento' />
                 <BagdeCategory title='Presença' />
