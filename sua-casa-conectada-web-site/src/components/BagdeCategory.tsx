@@ -6,6 +6,6 @@ type BagdeProps = {
 
 export const BagdeCategory = ({ title }: BagdeProps) => {
     return (
-        <div className='bg-blue-950 text-white p-3 rounded-full text-center'>{title}</div>
+        <div className='bg-[#0D325E] text-white p-3 rounded-full text-center'>{title}</div>
     )
 }
