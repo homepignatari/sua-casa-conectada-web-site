@@ -1,8 +1,9 @@
 'use client';
 
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Header } from '@/components/Header'
 import FooterBar from '@/components/FooterBar'
+import { useEffect } from 'react'
 
 export default function page() {
     useEffect(() => {
