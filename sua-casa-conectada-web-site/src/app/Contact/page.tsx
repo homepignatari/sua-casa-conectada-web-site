@@ -5,7 +5,7 @@ import { Header } from '@/components/Header'
 import FooterBar from '@/components/FooterBar'
 import { useEffect } from 'react'
 
-export default function page() {
+export default function Page() {
     useEffect(() => {
         const script = document.createElement('script');
         script.src = '//embed.typeform.com/next/embed.js';
