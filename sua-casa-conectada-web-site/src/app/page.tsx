@@ -30,12 +30,12 @@ export default function Home() {
         <div className="bg-white place-items-center grid min-h-screen">
           <h2 className="p-8 text-4xl text-center font-semibold text-[#0D325E]">Porque escolher a Sua Casa Conectada?</h2>
           <div className="w-full max-w-[1000px] mx-auto flex flex-wrap justify-center gap-4 text-center">
-            <TopicTable title="Inovação Contínua" descriple="Acompanhamos as tendências tecnológicas para oferecer as melhores soluções em automação residencial;" />
-            <TopicTable title="Excelência no Atendimento" descriple="Valorizamos o relacionamento com nossos clientes e buscamos exceder suas expectativas em cada projeto;" />
-            <TopicTable title="Simplicidade e Usabilidade" descriple="Acompanhamos as tendências tecnológicas para oferecer as melhores soluções em automação residencial;" />
-            <TopicTable title="Qualidade" descriple="Trabalhamos com dispositivos e tecnologias reconhecidas pela qualidade, durabilidade e confiabilidade;" />
-            <TopicTable title="Sustentabilidade" descriple="Contribuímos para a eficiência energética e o uso consciente de recursos naturais e digitais;" />
-            <TopicTable title="Ética e Transparência" descriple="Atuamos com responsabilidade, honestidade e clareza em todas as nossas relações;" />
+            <TopicTable title="Inovação Contínua" descriple="Criamos sistemas intuitivos e práticos para garantir que nossos clientes possam proveitar a tecnologia sem complicações" />
+            <TopicTable title="Excelência no Atendimento" descriple="Valorizamos o relacionamento com nossos clientes e buscamos exceder suas expectativas em cada projeto." />
+            <TopicTable title="Simplicidade e Usabilidade" descriple="Acompanhamos as tendências tecnológicas para oferecer as melhores soluções em automação residencial." />
+            <TopicTable title="Qualidade" descriple="Trabalhamos com dispositivos e tecnologias reconhecidas pela qualidade, durabilidade e confiabilidade." />
+            <TopicTable title="Sustentabilidade" descriple="Contribuímos para a eficiência energética e o uso consciente de recursos naturais e digitais." />
+            <TopicTable title="Ética e Transparência" descriple="Atuamos com responsabilidade, honestidade e clareza em todas as nossas relações." />
             <TopicTable title="Personalização" descriple="Entendemos que cada lar é único, por isso oferecemos soluções sob medida para as necessidades específicas de cada cliente." />
           </div>
         </div>

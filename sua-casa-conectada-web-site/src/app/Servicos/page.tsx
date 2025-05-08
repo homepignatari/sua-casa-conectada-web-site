@@ -36,12 +36,15 @@ export default function page() {
             <p className='font-mono max-w-[1000px] text-center px-8'>Os pacotes de automação Essencial são compostos por pontos de iluminação, tomadas, botões de cenas, sensores de portas e janelas, sensores de presença, sensores de temperatura e humidade, sensores de líquidos, campainha, *portão de garagem, configuração de aplicativo e assistente de voz, uma hora de Treinamento e um mês de Suporte Remoto Full</p>
             <div className='w-[1050px] flex flex-wrap max-sm:w-full max-sm:grid max-sm:grid-rows-1 gap-2 gap-y-8 gap-x-4 place-items-center justify-center items-center py-10 px-8'>
                 <BorderTopic title='Studio' describle='Studios e apartamentos pequenos com 1 quarto – até 40m' />
-                <BorderTopic title='Small' describle='Apartamentos compactos com 2 quartos – até 60m' />
+                <div className='w-[280px] h-[100px] border-2 border-sky-500 rounded-lg p-2'>
+                    <p className='font-medium text-2xl text-center text-sky-500 py-2'>Small </p>
+                    <p className='font-mono font-medium text-xs text-center'>Apartamentos compactos <span className="block indent-2">com 2 quartos – até 60m</span></p>
+                </div>
                 <BorderTopic title='Medium' describle='Apartamentos com 3 quartos – até 90m' />
                 <BorderTopic title='Small House' describle='Casas compactas com 2 quartos – até 65m' />
                 <BorderTopic title='Medium House' describle='Casas com 3 quartos – até 90m' />
                 <BorderTopic title='Comfort House' describle='Casas maiores  – até 120m' />
-                <BorderTopic title='Large Custom' describle='Apartamentos acima de 90m e casas acimas de 120m' />
+                <BorderTopic title='Large Custom' describle='Apartamentos acima de 90m e casas acima de 120m' />
 
             </div>
             <h2 className='text-xl font-bold p-4'>Pacotes Automação Plus</h2>
@@ -67,7 +70,7 @@ export default function page() {
                     <p className='font-medium text-2xl text-center text-sky-500'>Simple</p>
                     <ul className="list-disc list-inside text-left">
                         <li className='font-mono text-xs'>Lógica Simples</li>
-                        <li className='font-mono text-xs'>Até 3 elementos ou 30 minutos de programação</li>
+                        <li className='font-mono text-xs'>Até 3 elementos ou 30 minutos de <span className="block indent-4">programação</span> </li>
                     </ul>
                 </div>
                 <div className='w-[280px] h-[100px] border-2 border-sky-500 rounded-lg p-2'>
@@ -81,7 +84,7 @@ export default function page() {
                     <p className='font-medium text-2xl text-center text-sky-500'>Complex</p>
                     <ul className="list-disc list-inside text-left">
                         <li className='font-mono text-xs'>Lógica Complexa</li>
-                        <li className='font-mono text-xs'>Diversos elementos ou a partir de 1 hora de programação</li>
+                        <li className='font-mono text-xs'>Diversos elementos ou a partir de 1 hora de <span className="block indent-4">programação</span></li>
                     </ul>
                 </div>
             </div>
