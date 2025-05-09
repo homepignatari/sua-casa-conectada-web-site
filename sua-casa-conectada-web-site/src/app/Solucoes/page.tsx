@@ -56,10 +56,10 @@ export default function page() {
             </div>
             <Subtitle title='Conectividade' backgroungImage='/banner-conectatividade.svg' />
             <div className='flex max-sm:grid max-sm:grid-cols-2 gap-y-8 gap-x-4 place-items-center py-10'>
-            <Image src={wifi} alt='logo wi-fi' />
-            <Image src={zigbee} alt='logo zigbee' />
-            <Image src={thread} alt='logo thread' />
-            <Image src={matter} alt='logo matter' />
+                <Image src={wifi} alt='logo wi-fi' />
+                <Image src={zigbee} alt='logo zigbee' />
+                <Image src={thread} alt='logo thread' />
+                <Image src={matter} alt='logo matter' />
 
             </div>
             <Subtitle title='Dispositivos' backgroungImage='/banner-dispositivos.svg' />
@@ -92,8 +92,10 @@ export default function page() {
                 <BagdeCategory title='Hubs' />
                 <BagdeCategory title='Roteadores' />
                 <BagdeCategory title='Switches' />
-                <BagdeCategory title='Access Points' />
-                
+                <div className='max-sm:col-span-2 max-sm:w-full max-sm:flex max-sm:justify-center w-auto'>
+                    <BagdeCategory title='Access Points' />
+                </div>
+
             </div>
             <Subtitle title='Sensores' backgroungImage='/banner-sensores.svg' />
             <div className='w-[800px] flex flex-wrap max-sm:w-full max-sm:grid max-sm:grid-cols-2 gap-2 gap-y-8 gap-x-4 place-items-center justify-center items-center py-10 px-8'>
@@ -105,7 +107,9 @@ export default function page() {
                 <BagdeCategory title='Chuva' />
                 <BagdeCategory title='Água' />
                 <BagdeCategory title='Gás' />
-                <BagdeCategory title='Fumaça' />
+                <div className='max-sm:col-span-2 max-sm:w-full max-sm:flex max-sm:justify-center w-auto'>
+                    <BagdeCategory title='Fumaça' />
+                </div>
             </div>
             < ContactBar />
             <FooterBar />
