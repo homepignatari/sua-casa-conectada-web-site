@@ -4,19 +4,19 @@ import { Subtitle } from '@/components/Subtitle'
 import { TopicTable } from '@/components/TopicTable'
 import { BagdeCategory } from '@/components/BagdeCategory'
 import Image from 'next/image'
-import Alexa from '../../../public/Alexa.svg'
-import GoogleAssistant from '../../../public/Google-Assistant.svg'
+import Alexa from '../../../public/alexa-png.png'
+import GoogleAssistant from '../../../public/Google_Assistante - png.png'
 import Siri from '../../../public/Siri.svg'
 import Assist from '../../../public/Assist.svg'
 import { ContactBar } from "@/components/ContactBar";
 import FooterBar from "@/components/FooterBar";
 import AlexaAmazon from '../../../public/amazon-alexa.svg'
-import GoogleHome from '../../../public/google-home.svg'
+import GoogleHome from '../../../public/Google_Home - png.png'
 import AppleHomeKit from '../../../public/Apple-Home-Kit.svg'
-import Tuya from '../../../public/tuya.svg'
-import Ewelink from '../../../public/ewelink.svg'
-import Aqara from '../../../public/aqara.svg'
-import SmartThings from '../../../public/smart-things.svg'
+import Tuya from '../../../public/Tuya - png.png'
+import Ewelink from '../../../public/eWeLink -  png.png'
+import Aqara from '../../../public/Aqara - png.png'
+import SmartThings from '../../../public/Smart_Things - png.png'
 import HomeAssist from '../../../public/Home-assistant.svg'
 import wifi from '../../../public/wifi-a.svg'
 import zigbee from '../../../public/zigbee.svg'
@@ -37,21 +37,21 @@ export default function page() {
             </div>
             <Subtitle title='Assistentes de Voz' backgroungImage='/2-assistentes-de-voz.svg' />
             <div className='flex max-sm:grid max-sm:grid-cols-2 gap-y-8 gap-x-4 place-items-center py-10'>
-                <Image src={Alexa} alt='logo alexa' />
-                <Image src={GoogleAssistant} alt='logo alexa' />
+                <Image src={Alexa} height={142} width={142} alt='logo alexa' />
+                <Image src={GoogleAssistant} height={142} width={142} alt='logo alexa' />
                 <Image src={Siri} alt='logo alexa' />
                 <Image src={Assist} alt='logo alexa' />
             </div>
             <Subtitle title='Plataformas' backgroungImage='/banner-plataformas.svg' />
             <div className='grid max-sm:grid-cols-4 grid-flow-col grid-rows-2  gap-y-8 gap-x-4 place-items-center py-10'>
                 <Image src={AlexaAmazon} alt='logo amazon alexa' />
-                <Image src={Ewelink} alt='logo ewelink' />
-                <Image src={GoogleHome} alt='logo Google Home' />
-                <Image src={Aqara} alt='logo aqara' />
-                <Image src={AppleHomeKit} alt='logo apple home kit' />
-                <Image src={SmartThings} alt='logo smart things' />
-                <Image src={Tuya} alt='logo Tuya' />
-                <Image src={HomeAssist} alt='logo Home Assist' />
+                <Image src={Ewelink} height={200} width={200} alt='logo ewelink' />
+                <Image src={GoogleHome} height={200} width={200} alt='logo Google Home' />
+                <Image src={Aqara} height={242} width={242} alt='logo aqara' />
+                <Image src={AppleHomeKit} height={142} width={142} alt='logo apple home kit' />
+                <Image src={SmartThings}  height={142} width={142} alt='logo smart things' />
+                <Image src={Tuya} height={142} width={142} alt='logo Tuya' />
+                <Image src={HomeAssist} height={142} width={142} alt='logo Home Assist' />
 
             </div>
             <Subtitle title='Conectividade' backgroungImage='/banner-conectatividade.svg' />
