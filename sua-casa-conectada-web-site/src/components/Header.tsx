@@ -1,7 +1,7 @@
 import React from 'react'
 import "daisyui";
 import Image from 'next/image';
-import logo from '../../public/logo-sua-casa-conectada.svg'
+import logo from '../../public/logo-sua-casa-conectada-png.png'
 import Link from 'next/link';
 
 export const Header = () => {
@@ -20,7 +20,7 @@ export const Header = () => {
 
                 </div>
 
-                <Link href={`/`}><Image src={logo} alt='Logo azul sua casa conectada' /></Link>
+                <Link href={`/`}><Image src={logo} height={84} width={84} alt='Logo azul sua casa conectada' /></Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal text-base px-1">
