@@ -10,14 +10,14 @@ import Siri from '../../../public/Siri.svg'
 import Assist from '../../../public/Assist.svg'
 import { ContactBar } from "@/components/ContactBar";
 import FooterBar from "@/components/FooterBar";
-import AlexaAmazon from '../../../public/amazon-alexa.svg'
+import AlexaAmazon from '../../../public/amazon-alexa.png'
 import GoogleHome from '../../../public/Google_Home - png.png'
 import AppleHomeKit from '../../../public/Apple-Home-Kit.svg'
 import Tuya from '../../../public/Tuya - png.png'
 import Ewelink from '../../../public/eWeLink -  png.png'
 import Aqara from '../../../public/Aqara - png.png'
 import SmartThings from '../../../public/Smart_Things - png.png'
-import HomeAssist from '../../../public/Home-assistant.svg'
+import HomeAssist from '../../../public/home-assistant-png.png'
 import wifi from '../../../public/wifi-a.svg'
 import zigbee from '../../../public/zigbee.svg'
 import thread from '../../../public/Thread.svg'
@@ -44,14 +44,14 @@ export default function page() {
             </div>
             <Subtitle title='Plataformas' backgroungImage='/banner-plataformas.svg' />
             <div className='grid max-sm:grid-cols-4 grid-flow-col grid-rows-2  gap-y-8 gap-x-4 place-items-center py-10'>
-                <Image src={AlexaAmazon} alt='logo amazon alexa' />
+                <Image src={AlexaAmazon} height={200} width={200} alt='logo amazon alexa' />
                 <Image src={Ewelink} height={200} width={200} alt='logo ewelink' />
                 <Image src={GoogleHome} height={200} width={200} alt='logo Google Home' />
                 <Image src={Aqara} height={242} width={242} alt='logo aqara' />
                 <Image src={AppleHomeKit} height={142} width={142} alt='logo apple home kit' />
                 <Image src={SmartThings}  height={142} width={142} alt='logo smart things' />
                 <Image src={Tuya} height={142} width={142} alt='logo Tuya' />
-                <Image src={HomeAssist} height={142} width={142} alt='logo Home Assist' />
+                <Image src={HomeAssist} height={80} width={80} alt='logo Home Assist' />
 
             </div>
             <Subtitle title='Conectividade' backgroungImage='/banner-conectatividade.svg' />
