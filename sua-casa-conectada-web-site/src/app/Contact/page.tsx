@@ -5,7 +5,7 @@ import FooterBar from '@/components/FooterBar';
 import { ContactBar } from '@/components/ContactBar';
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '../../../public/logo-sua-casa-conectada.svg'
+import logo from '../../../public/logo-sua-casa-conectada-png.png'
 
 
 export default function Page() {
@@ -38,7 +38,7 @@ export default function Page() {
 
                     </div>
 
-                    <Link href={`/`}><Image src={logo} alt='Logo azul sua casa conectada' /></Link>
+                    <Link href={`/`}><Image src={logo} height={84} width={84} alt='Logo azul sua casa conectada' /></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal text-base px-1">
@@ -62,15 +62,16 @@ export default function Page() {
             </div>
 
             <div className="w-full max-w-xl mx-auto p-4">
-                <div className="relative" style={{ paddingBottom: '150%', height: 0 }}>
+                <div className="relative w-full min-h-[800px] sm:min-h-[900px] md:min-h-[950px] lg:min-h-[800px]">
                     <iframe
                         className="absolute top-0 left-0 w-full h-full rounded-xl shadow"
-                        src="https://form.typeform.com/to/sKtwotM1"
+                        src="https://form.typeform.com/to/agsgMSL6"
                         frameBorder="0"
                         allow="camera; microphone; autoplay; encrypted-media;"
                     ></iframe>
                 </div>
             </div>
+
             <div className="w-full max-w-4xl mx-auto my-10 px-4">
                 <iframe
                     className="w-full h-[400px] rounded-xl shadow"
