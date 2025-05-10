@@ -51,7 +51,7 @@ export default function page() {
                 <Image src={AppleHomeKit} height={142} width={142} alt='logo apple home kit' />
                 <Image src={SmartThings}  height={142} width={142} alt='logo smart things' />
                 <Image src={Tuya} height={142} width={142} alt='logo Tuya' />
-                <Image src={HomeAssist} height={80} width={80} alt='logo Home Assist' />
+                <Image src={HomeAssist} height={80} width={80} className='max-md:h-[80px] max-md:w-[55px]' alt='logo Home Assist' />
 
             </div>
             <Subtitle title='Conectividade' backgroungImage='/banner-conectatividade.svg' />

@@ -12,7 +12,7 @@ export default function page() {
         <div className='bg-white place-items-center'>
             <Header />
             <Subtitle title='Nossos Serviços' backgroungImage='/nossos-servicos.svg' />
-            <div className='w-full max-w-[1000px] mx-auto flex flex-wrap justify-center gap-4 text-center gap-y-8 gap-x-4 place-items-center text-center py-10'>
+            <div className='w-full max-w-[1000px] mx-auto flex flex-wrap justify-center gap-4 gap-y-8 gap-x-4 place-items-center text-center py-10'>
                 <TopicTable title='Consultoria' descriple='Indicação de dispositivos e sistemas ideais para cada ambiente, priorizando desempenho, praticidade e estética que permitam expansões futuras e atendam seu orçamento e necessidades atuais.' />
                 <TopicTable title='Avaliação Inicial de Projeto' descriple='Análise das necessidades do cliente, orientação inicial sobre produtos, sistemas e tecnologias.' />
                 <TopicTable title='Projeto Personalizado' descriple='Visita técnica ao imóvel, elaboração do projeto e detalhamento completo da infraestrutura, dispositivos e integrações.' />

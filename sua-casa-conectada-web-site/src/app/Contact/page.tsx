@@ -65,7 +65,7 @@ export default function Page() {
                 <div className="relative w-full min-h-[800px] sm:min-h-[900px] md:min-h-[950px] lg:min-h-[800px]">
                     <iframe
                         className="absolute top-0 left-0 w-full h-full rounded-xl shadow"
-                        src="https://form.typeform.com/to/sKtwotM1"
+                        src="https://form.typeform.com/to/agsgMSL6"
                         frameBorder="0"
                         allow="camera; microphone; autoplay; encrypted-media;"
                     ></iframe>
