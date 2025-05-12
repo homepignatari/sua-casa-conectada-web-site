@@ -31,11 +31,10 @@ export default function Page() {
                             <svg xmlns="http://www.w3.org/2000/svg" height="25" width="25" viewBox="0 0 448 512"><path fill="#1781CD" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" /></svg>                    </div>
                         <ul tabIndex={0} className="menu menu-sm text-base dropdown-content rounded-box z-1 mt-3 w-52 p-2 shadow bg-blue-950 text-white">
                             <li><Link href={`/`}>Home</Link></li>
-                            <li><Link href={`/Solucoes`}>Soluções</Link></li>
-                            <li><Link href={`/Servicos`}>Serviços</Link></li>
-                            <li><Link href={`/Contact`}>Contato</Link></li>
+                            <li><Link href={`/solucoes`}>Soluções</Link></li>
+                            <li><Link href={`/servicos`}>Serviços</Link></li>
+                            <li><Link href={`/contact`}>Contato</Link></li>
                         </ul>
-
                     </div>
 
                     <Link href={`/`}><Image src={logo} height={84} width={84} alt='Logo azul sua casa conectada' /></Link>
@@ -43,9 +42,9 @@ export default function Page() {
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal text-base px-1">
                         <li><Link href={`/`}>Home</Link></li>
-                        <li><Link href={`/Solucoes`}>Soluções</Link></li>
-                        <li><Link href={`/Servicos`}>Serviços</Link></li>
-                        <li><Link href={`/Contact`}>Contato</Link></li>
+                        <li><Link href={`/solucoes`}>Soluções</Link></li>
+                        <li><Link href={`/servicos`}>Serviços</Link></li>
+                        <li><Link href={`/contact`}>Contato</Link></li>
                     </ul>
                 </div>
                 <div className="navbar-end gap-2">
@@ -60,17 +59,14 @@ export default function Page() {
             <div className='relative z-10 flex flex-col items-center text-center justify-center h-full text-[#34BEED] gap-4'>
                 <h2 className='text-5xl font-sans py-8'>Entre em contato conosco</h2>
             </div>
-
-            <div className="w-full max-w-xl mx-auto p-4">
-                <div className="relative w-full min-h-[800px] sm:min-h-[900px] md:min-h-[950px] lg:min-h-[800px]">
-                    <iframe
-                        className="absolute top-0 left-0 w-full h-full rounded-xl shadow"
-                        src="https://form.typeform.com/to/agsgMSL6"
-                        frameBorder="0"
-                        allow="camera; microphone; autoplay; encrypted-media;"
-                    ></iframe>
-                </div>
-            </div>
+            <iframe
+                className="w-full h-[1100px] md:h-[1000px] rounded-xl"
+                src="https://docs.google.com/forms/d/e/1FAIpQLSe77xdUt8mTFZOlnckalRd4T94GZSiLgElGcvneBAWlnr_dGQ/viewform?embedded=true"
+                frameBorder="0"
+                loading="lazy"
+            >
+                Carregando…
+            </iframe>
 
             <div className="w-full max-w-4xl mx-auto my-10 px-4">
                 <iframe

@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   title: "Sua Casa Conectada",
   description: "Aqui na Sua Casa Conectada, preparamos e transformamos lares em ambientes inteligentes e conectados, proporcionando mais conforto, segurança e eficiência para você e sua família. Combinamos tecnologia de ponta e expertise para garantir uma experiência de automação simples, intuitiva e acessível para todos.",
   icons: {
-    icon: '/favicon.png', // Certifique-se de que o caminho está correto
+    icon: '/favicon.png', 
   }
 };
 
