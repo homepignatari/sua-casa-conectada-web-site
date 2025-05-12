@@ -23,7 +23,6 @@ export default function Page() {
 
     return (
         <div className='bg-white place-items-center'>
-
             <div className="navbar bg-white px-8">
                 <div className="navbar-start">
                     <div className="dropdown">
