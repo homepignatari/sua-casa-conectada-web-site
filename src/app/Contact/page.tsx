@@ -35,7 +35,6 @@ export default function Page() {
                             <li><Link href={`/servicos`}>Serviços</Link></li>
                             <li><Link href={`/contact`}>Contato</Link></li>
                         </ul>
-
                     </div>
 
                     <Link href={`/`}><Image src={logo} height={84} width={84} alt='Logo azul sua casa conectada' /></Link>

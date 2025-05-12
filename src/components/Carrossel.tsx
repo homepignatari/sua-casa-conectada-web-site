@@ -3,7 +3,6 @@ import slider from '../../public/Slider.svg'
 import Image from 'next/image'
 import Link from 'next/link';
 
-
 export const Carrossel = () => {
     return (
         <div className="relative w-full h-[500px]">
