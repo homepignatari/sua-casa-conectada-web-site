@@ -76,11 +76,11 @@ export default function Page() {
                 <div className="absolute  top-[-40px] left-0 w-full h-48 sm:h-36 md:h-40 bg-white z-10 rounded-t-xl"></div>
 
                 {/* Cobertura inferior mantida */}
-                <div className="absolute bottom-0 left-0 w-full h-60 sm:h-48 max-sm:h-52 md:h-86 bg-white z-10 rounded-b-xl"></div>
+                <div className="absolute bottom-0 left-0 w-full h-60 sm:h-48 max-sm:h-60 md:h-86 bg-white z-10 rounded-b-xl"></div>
             </div>
 
 
-            <div className="w-full relative z-30 mt-[-80px] overflow-hidden top-[-100px] h-[400px] z-30 max-w-4xl mx-auto my-10 px-4">
+            <div className="w-full relative z-30 mt-[-80px] overflow-hidden top-[-120px] h-[400px] z-30 max-w-4xl mx-auto my-10 px-4">
                 <iframe
                     className="w-full h-[400px] rounded-xl shadow"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.5663017197534!2d-46.85010168461605!3d-23.58668026811006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf0236795a84b3%3A0x9b9446a2c1c0b6cc!2sAlameda%20Rio%20Negro%2C%20503%20-%20Alphaville%20Industrial%2C%20Barueri%20-%20SP%2C%2006454-000!5e0!3m2!1spt-BR!2sbr!4v1714924011835!5m2!1spt-BR!2sbr"
