@@ -64,7 +64,7 @@ export default function Page() {
 
                 {/* Formulário embedado com deslocamento para cima */}
                 <iframe
-                    className="absolute overflow-hidden top-[-130px] left-0 max-w-full w-full h-full rounded-xl z-0"
+                    className="absolute overflow-hidden top-[-130px] max-sm:top-[-90px] left-0 max-w-full w-full h-full rounded-xl z-0"
                     src="https://docs.google.com/forms/d/e/1FAIpQLSe77xdUt8mTFZOlnckalRd4T94GZSiLgElGcvneBAWlnr_dGQ/viewform?embedded=true"
                     frameBorder="0"
                     loading="lazy"
