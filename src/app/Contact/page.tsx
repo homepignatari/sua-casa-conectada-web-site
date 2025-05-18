@@ -73,10 +73,10 @@ export default function Page() {
                 </iframe>
 
                 {/* Cobertura superior ajustada */}
-                <div className="absolute  top-[-40px] left-0 w-full h-48 sm:h-36 md:h-40 bg-white z-10 rounded-t-xl"></div>
+                <div className="absolute  top-[-40px] left-0 w-full max-sm:h-60 h-48 sm:h-36 md:h-40 bg-white z-10 rounded-t-xl"></div>
 
                 {/* Cobertura inferior mantida */}
-                <div className="absolute bottom-0 left-0 w-full h-60 sm:h-48 md:h-86 bg-white z-10 rounded-b-xl"></div>
+                <div className="absolute bottom-0 left-0 w-full h-60 sm:h-48 max-sm:h-52 md:h-86 bg-white z-10 rounded-b-xl"></div>
             </div>
 
 
