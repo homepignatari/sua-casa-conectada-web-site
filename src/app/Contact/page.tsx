@@ -22,8 +22,8 @@ export default function Page() {
     }, []);
 
     return (
-        <div className='bg-white place-items-center'>
-            <div className="navbar bg-white px-8">
+        <div className='bg-white place-items-center '>
+            <div className="navbar relative z-50 bg-white px-8">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -54,20 +54,33 @@ export default function Page() {
                     <a href="https://www.youtube.com/@SuaCasaConectada" target='_blank'><svg xmlns="http://www.w3.org/2000/svg" height="21" width="21" viewBox="0 0 576 512"><path fill="#0D325E" d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z" /></svg></a>
                 </div>
             </div>
+            <div className="relative w-full overflow-x-hidden h-[1050px] md:h-[1110px]">
+                {/* Título visível no topo */}
+                <div className="relative z-30 flex justify-center">
+                    <h2 className="text-5xl font-sans text-[#34BEED] mt-8 text-center">
+                        Entre em contato conosco
+                    </h2>
+                </div>
 
-            <div className='relative z-10 flex flex-col items-center text-center justify-center h-full text-[#34BEED] gap-4'>
-                <h2 className='text-5xl font-sans py-8'>Entre em contato conosco</h2>
+                {/* Formulário embedado com deslocamento para cima */}
+                <iframe
+                    className="absolute overflow-hidden top-[-130px] left-0 max-w-full w-full h-full rounded-xl z-0"
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSe77xdUt8mTFZOlnckalRd4T94GZSiLgElGcvneBAWlnr_dGQ/viewform?embedded=true"
+                    frameBorder="0"
+                    loading="lazy"
+                >
+                    Carregando…
+                </iframe>
+
+                {/* Cobertura superior ajustada */}
+                <div className="absolute  top-[-40px] left-0 w-full h-48 sm:h-36 md:h-40 bg-white z-10 rounded-t-xl"></div>
+
+                {/* Cobertura inferior mantida */}
+                <div className="absolute bottom-0 left-0 w-full h-60 sm:h-48 md:h-86 bg-white z-10 rounded-b-xl"></div>
             </div>
-            <iframe
-                className="w-full h-[1100px] md:h-[1000px] rounded-xl"
-                src="https://docs.google.com/forms/d/e/1FAIpQLSe77xdUt8mTFZOlnckalRd4T94GZSiLgElGcvneBAWlnr_dGQ/viewform?embedded=true"
-                frameBorder="0"
-                loading="lazy"
-            >
-                Carregando…
-            </iframe>
 
-            <div className="w-full max-w-4xl mx-auto my-10 px-4">
+
+            <div className="w-full relative z-30 mt-[-80px] overflow-hidden top-[-100px] h-[400px] z-30 max-w-4xl mx-auto my-10 px-4">
                 <iframe
                     className="w-full h-[400px] rounded-xl shadow"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.5663017197534!2d-46.85010168461605!3d-23.58668026811006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf0236795a84b3%3A0x9b9446a2c1c0b6cc!2sAlameda%20Rio%20Negro%2C%20503%20-%20Alphaville%20Industrial%2C%20Barueri%20-%20SP%2C%2006454-000!5e0!3m2!1spt-BR!2sbr!4v1714924011835!5m2!1spt-BR!2sbr"
