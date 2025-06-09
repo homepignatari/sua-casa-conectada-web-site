@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState } from 'react';
 import FooterBar from '@/components/FooterBar';
 import { ContactBar } from '@/components/ContactBar';
 import Link from 'next/link';
