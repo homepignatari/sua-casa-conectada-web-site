@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import FooterBar from '@/components/FooterBar';
 import { ContactBar } from '@/components/ContactBar';
 import Link from 'next/link';
@@ -21,8 +21,19 @@ export default function Page() {
         };
     }, []);
 
+    const [mostrarFrase, setMostrarFrase] = useState(false);
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setMostrarFrase(true);
+        }, 3000); // 3000 ms = 3 segundos
+
+        return () => clearTimeout(timer); // Limpa o timer se o componente for desmontado
+    }, []);
+
     return (
         <div className='bg-white place-items-center '>
+
             <div className="navbar relative z-50 bg-white px-8">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -57,7 +68,7 @@ export default function Page() {
             <div className="relative w-full overflow-x-hidden h-[1050px] md:h-[1110px]">
                 {/* Título visível no topo */}
                 <div className="relative z-30 flex justify-center">
-                    <h2 className="text-5xl font-sans text-[#34BEED] mt-8 text-center">
+                    <h2 className="text-5xl font-sans text-[#34BEED] mt-10 text-center">
                         Entre em contato conosco
                     </h2>
                 </div>
@@ -68,6 +79,7 @@ export default function Page() {
                     src="https://docs.google.com/forms/d/e/1FAIpQLSe77xdUt8mTFZOlnckalRd4T94GZSiLgElGcvneBAWlnr_dGQ/viewform?embedded=true"
                     frameBorder="0"
                     loading="lazy"
+                    title="Formulário de Contato"
                 >
                     Carregando…
                 </iframe>
@@ -77,6 +89,12 @@ export default function Page() {
 
                 {/* Cobertura inferior mantida */}
                 <div className="absolute bottom-0 left-0 w-full h-60 sm:h-48 max-sm:h-60 md:h-86 bg-white z-10 rounded-b-xl"></div>
+
+                {mostrarFrase && (
+                    <h3 className="text-2xl font-sans text-[#34BEED] mt-8 text-center">
+                        Obrigado por entrar em contato!
+                    </h3>
+                )}
             </div>
 
 
