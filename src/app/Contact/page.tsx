@@ -72,7 +72,6 @@ export default function Page() {
                         Entre em contato conosco
                     </h2>
                 </div>
-
                 {/* Formulário embedado com deslocamento para cima */}
                 <iframe
                     className="absolute overflow-hidden top-[-130px] max-sm:top-[-90px] left-0 max-w-full w-full h-full rounded-xl z-0"
@@ -91,9 +90,11 @@ export default function Page() {
                 <div className="absolute bottom-0 left-0 w-full h-60 sm:h-48 max-sm:h-60 md:h-86 bg-white z-10 rounded-b-xl"></div>
 
                 {mostrarFrase && (
-                    <h3 className="text-2xl font-sans text-[#34BEED] mt-8 text-center">
-                        Obrigado por entrar em contato!
-                    </h3>
+                    <div className="flex items-center justify-center h-screen z-30">
+                        <h3 className="text-2xl font-sans text-[#34BEED] mt-8 text-center">
+                            Obrigado por entrar em contato!
+                        </h3>
+                    </div>
                 )}
             </div>
 
